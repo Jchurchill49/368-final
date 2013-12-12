@@ -1,0 +1,270 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+/*Font*/
+
+@font-face {
+    font-family: 'quicksandregular';
+    src: url('quicksand-regular-webfont.eot');
+    src: url('quicksand-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('quicksand-regular-webfont.woff') format('woff'),
+         url('quicksand-regular-webfont.ttf') format('truetype'),
+         url('quicksand-regular-webfont.svg#quicksandregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'quicksandbold';
+    src: url('quicksand-bold-webfont.eot');
+    src: url('quicksand-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('quicksand-bold-webfont.woff') format('woff'),
+         url('quicksand-bold-webfont.ttf') format('truetype'),
+         url('quicksand-bold-webfont.svg#quicksandbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'quicksandlight';
+    src: url('quicksand-light-webfont.eot');
+    src: url('quicksand-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('quicksand-light-webfont.woff') format('woff'),
+         url('quicksand-light-webfont.ttf') format('truetype'),
+         url('quicksand-light-webfont.svg#quicksandlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'quicksanditalic';
+    src: url('quicksand-italic-webfont.eot');
+    src: url('quicksand-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('quicksand-italic-webfont.woff') format('woff'),
+         url('quicksand-italic-webfont.ttf') format('truetype'),
+         url('quicksand-italic-webfont.svg#quicksanditalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'quicksandbold_italic';
+    src: url('quicksand-bolditalic-webfont.eot');
+    src: url('quicksand-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('quicksand-bolditalic-webfont.woff') format('woff'),
+         url('quicksand-bolditalic-webfont.ttf') format('truetype'),
+         url('quicksand-bolditalic-webfont.svg#quicksandbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*end of fonts*/
+
+
+#main {
+	background-color: rgba(60,50,81,.8);
+	margin:0 10% 0 10%;
+	}
+
+
+
+
+img {
+	width:60%;
+	margin: 10px 10px;
+	border:black;
+	padding: 30px 30px;
+	}
+
+h1, h3 {
+	font-family: 'Quicksand', sans-serif;
+	}
+h1 {
+	font-family: 'Quicksand', sans-serif;
+	font-size:3.5em;
+	padding: 20px 20px 20px 20px;
+	background: none;
+	display:block;
+	text-align:center;
+	}
+ p {
+   font-family: 'Noto Sans', sans-serif;
+ }
+
+li {
+  background: ;
+  float:left;  
+  height: 3em;
+  line-height: 3em;
+  list-style: none;
+  margin: 0 10px 0 10px;
+  padding: 0 10px 0 0;
+  text-align: center;
+  width: 150px;
+}
+
+nav a {
+  background: ;
+  display: block;
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background: rgba(52,17,57,.9);
+  border-radius:50%;
+}
+
+
+
+body{
+	background: url(../img/tree_bark.png) ;
+}
+
+.contact{
+	text-align:left;
+}
+.contact a{
+ text-decoration:none;
+ color:white; 
+ position:relative;
+ top:10px;
+ left:15px;
+}
+.contact a:hover{
+ text-decoration:none;
+ color:rgba(52,17,57,.9);	
+}
+.contact li{
+	background: url(../img/Spritemap.png) no-repeat left center;
+	background-position: 0px -192px;
+}
+
+.contact li+li{
+	background: url(../img/Spritemap.png) no-repeat left center;
+	background-position: 0px 0px;
+}
+.contact li+li+li{
+	background: url(../img/Spritemap.png) no-repeat left center;
+	background-position: 0px -256px;
+}
+.contact li:hover{
+	background: url(../img/Spritemap.png) no-repeat left center;
+	background-position: 0px -128px;
+}
+.contact li+li:hover{
+	background: url(../img/Spritemap.png) no-repeat left center;
+	background-position: 0px -64px;
+}
+
+.contact li+li+li:hover{
+	background: url(../img/Spritemap.png) no-repeat left center;
+	background-position: 0px -320px;
+}
+
+footer{
+	text-align:center;
+	margin:0 20%;
+}
+
+@media screen and (max-width:1024px){
+	
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+	width:100%;
+}
+#main {
+	background-color: rgba(60,50,81,.8);
+	margin:0 auto;
+	}
+
+
+
+}
+
+@media screen and (max-width:768px){
+	
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+	width:100%;
+}
+
+#main {
+	background-color: rgba(60,50,81,.8);
+	margin:0 0;
+	}
+
+
+}
+
+@media screen and (max-width :480px){
+	
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+	width:100%;
+
+}
+
+nav{
+	float:left;
+	padding:0px;
+	margin:0 auto;
+}
+.contact{
+	float:left;
+	margin-right:30%;
+	
+}
+#main {
+	background-color: rgba(60,50,81,.8);
+	margin:0 0;
+	}
+
+}
